@@ -1,0 +1,77 @@
+#wrap-buycar{width: 100%;}
+#wrap-buycar #buycar{width: 770px;margin: 0 auto;}
+#buycar table a {text-decoration: none;}
+#buycar table a:hover {text-decoration: underline;}
+#buycar .buy-header{overflow: hidden;margin-top: 20px;}
+.buy-header a {display: block; float: left;}
+.buy-header ul {float: left;padding-top: 30px;margin-left: 20px;}
+.buy-header ul li {float: left;padding: 0 45PX;}
+.buy-header ul li{line-height: 24px;background-color:#dedede;}
+.buy-header ul li.step-p{padding: 0;}
+.buy-header ul li.step-3p{padding: 0;background-color: white;}
+.buy-header ul li.step1{background-color: #d80000;}
+.buy-detail {overflow: hidden;}
+.buy-detail li{float: left;height: 36px;vertical-align: bottom;}
+.buy-detail li.two{margin-top: 18px;}
+.buy-detail li.three{margin: 18px 20px 0 0;float: right;}
+
+.topay{padding: 10px  20px 40px 10px;}
+.topay a {color: red;font-size: 20px;margin-right: 260px;text-decoration: underline;}
+.topay button{margin-left: 90px;border: none;}
+.program {border:2px solid orange;}
+.program img{width: 760px;}
+.program h3{line-height: 24px;font-size: 18px;text-indent: 36px;background:url(../../img/buycar/cart_i4.gif)no-repeat center left salmon;color: red;}
+.program h3 a {color: red;text-decoration: underline;}
+.test-product{margin-top: 15px;overflow: hidden;}
+.test-product ul{float: left;padding-bottom: 20px;}
+.test-product ul.rule{width: 160px;border: 2px solid skyblue;}
+.test-product ul.rule li{padding: 5px 7px;line-height: 19px;}
+.test-product ul.rule li.first{text-indent: 10px;font-size: 14px;background: url(../../img/buycar/cart_i1.gif)no-repeat 5px center #46C3B3;}
+.test-product ul.select-test {border: 1px solid #ccc;width: 570px;margin-left: 20px;}
+.test-product ul.select-test li {float: left;margin: 6px;}
+.test-product ul.select-test li div{float: left;}
+.test-product ul.select-test li div.test-p {padding-top: 7px;}
+.test-product ul.select-test li div p {width: 80px;}
+.test-product ul.select-test img{width: 50px;}
+.test-pay{padding-left: 460px;}
+.test-pay button{margin-left: 30px;border: none;}
+.maybe{border: 2px solid orange;overflow: hidden;margin: 0 10px 30px 170px;}
+.maybe h5{background: url(../../img/buycar/cart_i4.gif)no-repeat 5px center salmon;text-indent: 20px;line-height: 24px;}
+.maybe li {float: left;margin: 16px;}
+.maybe li div{float: left;}
+.maybe li div.maype-p {margin-top: 7px;}
+.maybe li div.maype-p img{width: 50px;}
+table {border: solid 2px #46C3C9;border-collapse: 0;border-spacing: 0;}
+table.allproduct thead{background-color: skyblue;}
+table.allproduct thead tr{line-height: 28px;}
+table.allproduct thead th.first{background: url(../../img/buycar/cart_i1.gif) no-repeat 10px center;}
+table.allproduct tbody td{text-align: center;padding: 5px 0;border-right: 1px solid #46C3C9;}
+table.allproduct tbody td img{width: 30px;height: 42px;margin-left: 18px;}
+
+table.allmoney tbody{background-color: skyblue;}
+table.allmoney p {padding: 3px 0;}
+table.allmoney p span {color: red;}
+table.allmoney p input{margin-left: 5px;width: 200px;}
+table.allmoney p.one input{width: 150px;}
+table.allmoney p.two input{margin-left: 4px;}
+table.allmoney td.tran p ,table.allmoney td.allpay p{border-left: 1px solid black;padding: 12px 5px;font-size: 13px;}
+table.allmoney td.allpay p span{font-weight: bolder;}
+
+ul.tellempty {overflow: hidden;}
+ul.tellempty h3 {font-size: 16px;padding: 10px 0 10px 20px;background: url(../../img/buycar/cart_i1.gif) no-repeat left center;}
+ul.tellempty h3 span {font-size: 12px;font-weight: normal;}
+ul.tellempty li {float: left;}
+ul.tellempty h3.empty-header{margin-bottom: 15px;padding: 0;background: none;}
+ul.tellempty li img {padding: 40px 25px;}
+ul.tellempty .link{width: 380px;border: 1px solid #ccc;background-color: #87CEEB;padding: 0 10px 10px 10px;}
+ul.tellempty .link div{margin-bottom: 15px;}
+ul.tellempty .link div a {margin-right: 20px;line-height: 16px;}
+
+div.recommend {overflow: hidden;padding-bottom:40px;width: 742px;margin:3px 0 30px 0;}
+div.recommend ul {float: left;margin: 8px;}
+div.recommend{border: 1px solid #ccc;padding-top: 24px;background: url(../../img/buycar/e_bg_01.gif) no-repeat top left;}
+div.recommend li {width: 132px;margin-top: 5px;line-height: 16px;}
+div.recommend li img {border: 1px solid skyblue;margin-left: 6px;}
+div.recommend li.lowmeny {font-size: 14px;height:22px}
+div.recommend li.lowmeny b{line-height: 22px;color: red;display: block;float: left;}
+div.recommend li.lowmeny span{display: block;float: right;padding:3px 12px;background-color: red;color: white;}

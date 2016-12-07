@@ -1,0 +1,34 @@
+#wrap-details{width: 100%;}
+#details{overflow: hidden;width: 950px;margin: 0 auto;}
+#details .details-right{width: 720px;float: left;margin: 16px 0 0 16px;overflow: hidden;}
+.details-right h3{font-size: 20px;line-height: 26px;border-bottom: 1px dashed #ccc;}
+.details-right h3.product-titile{line-height: 40px;text-indent: 20px;background-color: #ccc;border-bottom: none;border-top: 1px solid black;}
+.details-right p.product-titile2{margin: 10px 0 40px 20px;}
+.details-right .products-detail{overflow: hidden;padding-bottom: 60px;}
+.details-right .products-detail li{float: left;margin-left: 30px;}
+.products-detail li.last{width: 300px;}
+.products-detail li.last h5.weight{padding-left: 280px;border-bottom: 1px solid #ccc;}
+.products-detail li.last img.jpan{padding: 10px 0;}
+.products-detail li.last p.money{padding-bottom: 10px;border-bottom: 1px solid #ccc;font-size: 30px;color: red;text-indent: 10px;}
+.products-detail li.last p.product-num{color: #ccc;padding: 10px 0;}
+.products-detail li.last div.dabuy{background: #ccc;width: 270px;height: 70px;margin-top: 15px;position: relative;}
+.products-detail li.last div.dabuy img {cursor: pointer;position: absolute;top: 20px;left: 10px;}
+.products-detail li.last div.look{padding: 0;}
+.products-detail li.last div.look img{margin-top: 15px;}
+
+.details-right div h3{font-size: 16px;line-height: 20px;padding-bottom: 5px;}
+.details-right div p{padding: 15px 0;font-size:16px;line-height: 28px;}
+.details-right div {padding: 15px;}
+.details-right div.look p{padding: 0;}
+.details-right div.look p.first{padding-top: 15px;}
+.details-right div.related-product{overflow: hidden;}
+.details-right div.related-product ul{margin: 18px;float: left;}
+.details-right div.related-product ul li{text-align: center;width: 120px;}
+.details-right div.related-product ul li.money{margin: 40px 0 15px 0;}
+.details-right div.related-product ul li.tobuycar{margin-left: 15px;}
+.details-right div.like h3 {background-color: black;border: none;color: white;}
+.details-right div.like ul{margin: 18px;float: left;}
+.details-right div.like ul li{text-align: center;width: 120px;}
+.details-right div.like ul li.money{margin: 40px 0 15px 0;}
+.details-right div.like ul li.tobuycar{margin-left: 15px;}
+li.tobuycar img{cursor: pointer;}

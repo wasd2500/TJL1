@@ -1,0 +1,64 @@
+body,h1, h2, h3, h4, h5, h6, hr, p, blockquote, /* structural elements 结构元素 */
+dl, dt, dd, ul, ol, li, /* list elements 列表元素 */
+pre, /* text formatting elements 文本格式元素 */
+form, fieldset, legend, button, input, textarea, /* form elements 表单元素 */
+th, td /* table elements 表格元素 */ {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+}
+body { font:12px "宋体";} 
+ul,li { list-style:none;}
+img { border:0; display:block;} 
+a { text-decoration:underline; color:#000;cursor: pointer;}
+
+a:hover { text-decoration:none; color:blue;}
+
+/*div.contant-left{float: left;}
+div.contant-left li {overflow: hidden;margin-top: 14px;border: solid 1px #ccc;width: 200px;}
+.contant-left li.one,.contant-left li.two,.contant-left li.three,.contant-left li.four{border: none;}
+.contant-left li.five{padding-bottom: 5px;}
+.contant-left li.five a{margin: 0 12px;font-size: 12px;}
+.contant-left li.five a.last{padding-left: 100px;}
+.contant-left li.five a.last img{float: left;margin-left: 15px;}
+.contant-left li a{margin-left: 12px;display:inline-block;line-height: 30px;overflow: hidden;}
+.contant-left li.six a{ margin-right: 140px;}
+.contant-left li.seven a{ margin-right: 100px;}
+.contant-left li.eight a{ margin-right: 100px;}
+.contant-left li.nine a{ margin-right: 100px;height: 30px;}
+.contant-left li.ten a{ margin-right: 100px;}
+.contant-left li.eleven a{ margin-left:0 ;border-bottom: 1px dashed #ccc;}
+.contant-left li.eleven a.er{ margin-left:24px ;height: 0;border-bottom:none;}
+.contant-left li.fourth div {margin:12px ;border-bottom: 1px solid #ccc;overflow: hidden;padding-bottom: 12px;}
+.contant-left li.fourth div.second{border-bottom:none;}
+.contant-left li.fourth { float: left;}
+.contant-left li.fourth a.last{width:82px;margin-right: 20px;line-height: 16px;}*/
+
+
+/*#wrap-header{width: 100%;}*/
+
+
+/*#header{margin: 0 auto;width: 951px;overflow: hidden;padding-top: 10px;}
+#header .header-left{float: left;width: 555px;}
+.header-left p {margin-top:5px;overflow: hidden;}
+.header-left ul {margin-top:5px;overflow: hidden;}
+.header-left ul li{float: left;padding-right: 3px;}
+.header-left ul li img{margin-top: 2px;}
+.header-left-foot a {float: left;margin-right: 10px;}
+#header .header-right{float: left;width: 381px;overflow: hidden;background-color: #ccc;}
+.header-right p {width: 381px;text-align: center;font-size: 16px;margin-top: 15px;}
+.header-right ul {width: 381px;margin: 10px 13px 0 7px;overflow: hidden;}
+.header-right ul li {float: left;margin-right: 5px;}
+.header-right ul li.first{width: 173px;height: 48px;background-color: white;margin: 0 5px;}
+
+#wrap-nav{background:url(../../img/head/nav-bg.jpg) repeat-x top left;margin-top:6px;width: 100%;border: 2px solid #ccc;border-right: none;border-left: none;}
+#wrap-nav #nav {margin: 0 auto;width: 953px;overflow: hidden;margin-top: 1px;}
+#nav ul li {padding:1px 0;float: left;width: 168px;text-align: center;border-right: 2px solid #ccc;line-height: 38px;border-top: 2px solid white;border-bottom: 2px solid black;}
+#nav ul li.first{border-left: 1px solid #ccc;width: 78px;}
+#nav ul li.select {border-top: 2px solid black;border-bottom: 2px solid #ccc;}
+
+#wrap-search{margin-top: 1px;width: 100%; border: 2px solid #ccc;border-right: none;border-left: none;}
+#wrap-search #search{width:951px;margin: 5px auto;overflow: hidden;}
+#search input{float: left;border: 1px solid black;}
+#search input.s-text{margin-left: 100px;width: 698px;height: 27px;}
+#search input.s-search{width: 35px;height: 29px;background-image: url(../../img/head/search.jpg);}*/

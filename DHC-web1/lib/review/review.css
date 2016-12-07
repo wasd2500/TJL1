@@ -1,0 +1,69 @@
+#wrap-review{width: 100%;}
+#wrap-review #review{width: 950px;margin: 0 auto;overflow: hidden;}
+#wrap-review .review-left{width: 150px;float: left;}
+.review-left div.left-header{padding: 5px;background:darkorange;}
+.review-left div.left-header p{color: white;padding: 5px;}
+.review-left div.left-header input {width: 75px;float: left;margin-right: 20px;}
+.review-left ul{padding: 5px;margin-top: 4px;background-color:darkorange;}
+.review-left ul li{padding-left: 5px;background-color: white;line-height: 30px;border-bottom: 1px dashed #ccc;}
+.review-left ul li.re-lefthead{color: #482C00;background-color: #D59392;}
+.review-left ul li a{color: blue;text-decoration: underline;}
+.review-left p.re-leftlast{margin-top: 20px;background: #ccc;}
+
+#wrap-review .review-center{width: 633px;float: left;margin-left: 10px;}
+.review-center h3 {border-bottom: 1px solid #ccc;padding: 10px 0;}
+.review-center h3 a{display: inline-block;margin-left: 20px;font-size: 18px;}
+.review-center h3 a.tobuy{margin-left: 340px;}
+.review-center .review-center-detail{overflow: hidden;padding-bottom: 60px;}
+.review-center .review-center-detail li{float: left;}
+.review-center-detail li.last{width: 283px;}
+.review-center-detail li.last h5{padding: 10px 0;font-size: 18px;border-bottom: 1px solid #ccc;}
+.review-center-detail li.last p.product-num{color: black;padding: 10px 0 50px 0;}
+.review-center-detail li.last div{margin-bottom: 30px;}
+
+.review-center .userreview ul{border: 3px solid #DD3D97;margin-bottom: 15px;}
+.review-center .userreview ul li{border-bottom: 1px dashed #C7254E;padding:6px;width: 610px;overflow: hidden;}
+.userreview ul li.ur-head div{float: left;margin-left: 100px;}
+.userreview ul li.ur-head img {float: left;width: 35px;}
+.userreview ul li.ur-head div h3{margin: 5px 0;}
+.userreview ul li.ur-head div p{margin: 5px 0;}
+.userreview ul li.ur-feel div {float: left;line-height: 23px;}
+.userreview ul li.ur-feel div.star{margin-left: 80px;}
+.userreview ul li.ur-feel div.star img{display: inline-block;}
+.userreview ul li.ur-contant{border: none;}
+.userreview ul li.ur-contant div{float: left;}
+.userreview ul li.ur-contant div.title {width: 390px;margin-right: 10px;}
+.userreview ul li.ur-contant div.title h5{padding: 8px 0;}
+.userreview ul li.ur-contant div.title p{padding-bottom: 14px;}
+.userreview ul li.ur-contant div.message{border-left: 1px solid #ccc;margin-top: 10px;padding: 0 0 20px 10px;}
+.userreview ul li.ur-contant div.message p{line-height: 20px;}
+.review-center div.review-button{float: right;}
+.review-center div.review-button input{margin-left: 20px;width: 20px;height: 20px;float: left;}
+
+.review-center .myreview ul{border: 3px solid #DD3D97;margin-bottom: 15px;}
+.review-center .myreview ul li{border-bottom: 1px dashed #C7254E;padding:6px;width: 610px;overflow: hidden;}
+.myreview ul li.ur-head div{float: left;margin-left: 100px;}
+.myreview ul li.ur-head img {float: left;width: 35px;}
+.myreview ul li.ur-head div h3{margin: 5px 0;}
+.myreview ul li.ur-head div p{margin: 5px 0;}
+.myreview ul li.ur-feel div {float: left;line-height: 23px;}
+.myreview ul li.ur-feel div.star{margin-left: 80px;}
+.myreview ul li.ur-feel div.star img{display: inline-block;}
+.myreview ul li.ur-contant{border: none;}
+.myreview ul li.ur-contant div{float: left;}
+.myreview ul li.ur-contant div.title {width: 390px;margin-right: 10px;}
+.myreview ul li.ur-contant div.title h5{padding: 8px 0;}
+.myreview ul li.ur-contant div.title p{padding-bottom: 14px;}
+.myreview ul li.ur-contant div.message{border-left: 1px solid #ccc;margin-top: 10px;padding: 0 0 20px 10px;}
+.myreview ul li.ur-contant div.message p{line-height: 20px;}
+
+#wrap-review .review-right{float: right;}
+
+.review-right ul li{margin-bottom: 10px;width: 140px;}
+.review-right ul.first li{margin-bottom: 20px;}
+
+.review-right ul.second li{border-bottom: 1px solid #ccc;overflow: hidden;padding-bottom: 10px;}
+.review-right ul.second li.s-header{padding:5px;background: black; color: white;line-height: 25px;}
+.review-right ul.second li a {display: block;float: left;color: blue;text-decoration: underline;}
+.review-right ul.second li a.last{width: 75px;line-height: 20px;}
+.review-right ul.second li.s-last{border-bottom: none;}

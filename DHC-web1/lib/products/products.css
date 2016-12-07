@@ -1,0 +1,29 @@
+#wrap-products a{text-decoration: none;color: blue}
+#wrap-products a:hover{text-decoration: underline;}
+#wrap-products {width: 100%;}
+#wrap-products #products{width: 950px;margin: 0 auto;overflow: hidden;}
+#products .products-header{height: 25px;}
+#products .products-header p {display: inline-block;}
+.products-header p a{float: left;font-size: 12px;margin-left: 10px;margin-top: 3px;}
+.products-header p img{float: left;}
+.products-header p.last{float: right;}
+#products .product-search{margin-top: 30px;border: 1px solid #ccc;border-radius: 5px;overflow: hidden;}
+.product-search p{font-size: 14px;margin-top: 15px;}
+.product-search p b{margin-left: 20px;}
+.product-search ul {float: left;margin: 10px;}
+.product-search ul li {text-align: center;width: 120px;margin: 5px 0;}
+.product-search ul li.tokeep,.product-search ul li.tobuycar{margin-left: 15px;}
+#products .products-button div{float: right;margin: 20px 0;}
+#products .products-button div input,#products .products-button div a{margin-left: 5px;background: white;width: 20px;height: 20px;color: blue;border: 1px solid #ccc;}
+#products .products-button div a{width: 30px;padding: 3px ;}
+#products .products-button div a:hover{background: skyblue;}
+#products .products-button div input:hover{text-decoration: underline;}
+#products .products-button div input.now{background-color: #ccc;}
+li.tobuycar img{cursor: pointer;}
+
+#buyshow{position: absolute;top: 0;right: 0;left: 0;background-color: rgba(33,33,33,0.7);display: none;}
+#buyshow div{position: absolute;top: 0;left: 40%;opacity: 1;background-color: white;width: 300px;height: 250px;}
+#buyshow h5{border-bottom: 1px solid skyblue;line-height: 42px;text-indent: 50px;padding-left: ;background: url(../../img/products/car_r1_c1.gif) no-repeat left center;}
+#buyshow a {margin :0 0 20px 6px;display: inline-block;}
+#buyshow ul{overflow: hidden;padding: 10px 0 40px 0;}
+#buyshow ul li {float: left;margin-left: 20px;}

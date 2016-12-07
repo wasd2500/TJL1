@@ -1,0 +1,3 @@
+﻿{
+	 "pageSize": 12, "result": [
+		{"id": 3699, "src": "../img/Product Details/3699_L.jpg", "title": "DHC橄榄叶修护皂","explain": "温润洁净，呵护敏感肌肤", "price": 135},{"id": 3898, "src": "../img/Product Details/3898_L.jpg", "title": "DHC男士磨砂洁面膏","explain": "连毛孔内污垢、皮脂也一并去除的磨砂洁面膏", "price": 90},{"id": 3899, "src": "../img/Product Details/3899_L.jpg", "title": "DHC男士洁面泡沫","explain": "涌出丰富泡沫！对肌肤温和的弱酸性洁面品", "price": 90}]}								 

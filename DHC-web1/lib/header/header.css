@@ -1,0 +1,30 @@
+#wrap-header{width: 100%;}
+
+
+#header{margin: 0 auto;width: 951px;overflow: hidden;padding-top: 10px;}
+#header .header-left{float: left;width: 555px;}
+.header-left p {margin-top:5px;overflow: hidden;}
+.header-left ul {margin-top:5px;overflow: hidden;}
+.header-left ul li{float: left;padding-right: 3px;}
+.header-left ul li img{margin-top: 2px;}
+.header-left-foot a {float: left;margin-right: 10px;}
+#header .header-right{float: left;width: 381px;overflow: hidden;background-color: #ccc;}
+.header-right p {width: 381px;text-align: center;font-size: 16px;margin-top: 15px;}
+.header-right ul {width: 381px;margin: 10px 13px 0 7px;overflow: hidden;}
+.header-right ul li {float: left;margin-right: 5px;}
+.header-right ul li.first{width: 173px;height: 48px;background-color: white;margin: 0 5px;}
+.header-right ul li.first p {color: #ccc;padding: 5px;font-size: 12px;margin: 0;text-align: left;}
+.header-right ul li.first span {color: black;margin: 0;text-align: left;}
+#header .header-right .login-status a{text-decoration: none;color: black;}
+#wrap-nav{background:url(../../img/head/nav-bg.jpg) repeat-x top left;margin-top:6px;width: 100%;border: 2px solid #ccc;border-right: none;border-left: none;}
+#wrap-nav #nav {margin: 0 auto;width: 953px;overflow: hidden;margin-top: 1px;}
+#nav ul li {padding:1px 0;float: left;width: 168px;text-align: center;border-right: 2px solid #ccc;line-height: 38px;border-top: 2px solid white;border-bottom: 2px solid black;}
+
+#nav ul li.select {border-top: 2px solid black;border-bottom: 2px solid #ccc;}
+#nav ul li a {color: black; text-decoration: none;}
+#nav ul li.first{border-left: 1px solid #ccc;width: 78px;}
+#wrap-search{margin-top: 1px;width: 100%; border: 2px solid #ccc;border-right: none;border-left: none;}
+#wrap-search #search{width:951px;margin: 5px auto;overflow: hidden;}
+#search input{float: left;border: 1px solid black;}
+#search input.s-text{margin-left: 100px;width: 698px;height: 27px;}
+#search input.s-search{cursor: pointer;width: 35px;height: 29px;background-image: url(../../img/head/search.jpg);}

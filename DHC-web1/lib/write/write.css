@@ -1,0 +1,19 @@
+#wrap-write{width: 100%;}
+#wrap-write #write{width: 650px;margin: 0 auto;margin-bottom: 50px;overflow: hidden;}
+#write .write-head{margin-left: 20px;}
+#write div.form-header{height: 34px;font-size: 16px;line-height: 34px;padding-left: 17px;background: url(../../img/write/gra1.gif) no-repeat left center;}
+#write form.form-write{overflow: hidden;letter-spacing:1px;}
+#write form.form-write p{width: 470px;border: 1px solid #ccc;height: 24px;line-height: 24px;}
+form.form-write label{width: 75px;border-right: 1px solid #ccc;font-size: 12px;padding: 7px;}
+form.form-write input{margin: 4px;width: 60px;text-align: center;text-indent: -24px;}
+form.form-write p.write-name input{width: 210px;}
+form.form-write p.write-name a{background-color: #ccc;padding: 2px;}
+form.form-write p.write-weight label{width: 60px;padding-left: 19px;padding-right:19px}
+form.form-write p.write-this label{padding-left: 13px;padding-right: 13px;}
+form.form-write p.write-mess {}
+form.form-write div.write-mess{width: 470px;border: 1px solid #ccc;}
+form.form-write div.write-mess input{margin-left: ; 20px;}
+form.form-write div.write-mess div{text-align: center;line-height: 227px;margin-right: 13px;height: 230px;width: 62px;float: left;border-right: 1px solid #ccc;}
+#write ul{margin: 15px 0 30px 60px;}
+#write ul li {line-height: 18px;}
+#write .gotowrite{margin-left: 180px;display: block;}

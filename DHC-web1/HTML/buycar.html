@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="../lib/common/common.css" />
+		<link rel="stylesheet" href="../lib/buycar/buycar.css" />
+		<script src="../lib/jq/jquery-2.1.1.min.js"></script>
+		<script src="../lib/common/common.js"></script>>
+		<script src="../lib/buycar/buycar.js"></script>
+		<script src="../lib/common/base.js"></script>
+	</head>
+	<body>
+		<div id="wrap-buycar">
+			<div id="buycar">
+				<div class="buy-header">
+					<a href="main.html"><img src="../img/buycar/logo.gif"></a>
+					<ul>
+						<li class="step1">1.我的购物车</li>
+						<li class="step-p"><img src="../img/buycar/step_a.gif"></li>
+						<li class="step2">2.填写核对订单信息</li>
+						<li class="step-p"><img src="../img/buycar/step.gif"></li>
+						<li class="step3">3.成功提交订单</li>
+						<li class="step-3p"><img src="../img/buycar/step.gif"></li>
+					</ul>
+				</div>
+				
+				<ul class="buy-detail">
+					<li><img src="../img/buycar/cart_t1.gif"></li>
+					<li class="two">满250元免运费。在线支付，可额外获赠1000积分。</li>
+					<li class="three"><a href="#">[使用帮助]</a></li>
+				</ul>
+				
+				<div class="notempty">
+						
+					
+					<table class="allproduct">
+						<thead>
+							<tr>
+								<th class="first" width="77">商品</th>
+								<th width="79">商品编号</th>
+								<th width="305">商品名称</th>
+								<th width="75">单价</th>
+								<th width="75">数量</th>
+								<th width="75">小计</th>
+								<th width="58">商品删除</th>
+							</tr>
+						</thead>
+						<tbody>
+							<!--<tr>
+								<td><a><img src="../img/buycar/1022.gif"></a></td>
+								<td><a>861233</a></td>
+								<td><a>DHC橄榄滋养呵护组合</a></td>
+								<td>￥638</td>
+								<td><select><option>1</option><option>2</option></select></td>
+								<td>￥638</td>
+								<td><a>删除</a></td>
+							</tr>-->
+						</tbody>
+					</table>
+					
+					<table class="allmoney">
+						<tbody>
+							<tr>
+								<td width="424">
+									<p class="one">
+										<label><b>我的媒体号：</b></label>
+										<input type="text" />
+										<span>每单媒体号仅限输1个。</span>
+									</p>
+									<p class="two">
+										<label><b>校园代理ID：</b></label>
+										<input type="text" />
+										<button>使用</button>
+										<span>必点！</span>
+									</p>
+									<p>
+										<label><b>我的邀请码：</b></label>
+										<input type="text" />
+										<button>使用</button>
+										<span>必点！</span>
+									</p>
+								</td>
+								<td width="160" class="tran">
+									<p>您目前可享受免运费优惠 </p>
+								</td>
+								<td width="161" class="allpay">
+									<p>
+										<b>商品总金额￥</b>
+										<span>0</span>
+									</p>
+									
+								</td>
+							</tr>
+						</tbody>
+					</table>
+	
+					<div class="topay">
+						<a href="javascript:void(0)">凑单必点！!</a>
+						<span>您可以挑选1个试用装，然后</span>
+						<button><img src="../img/buycar/cart_b1.gif" /></button>
+					</div>
+					
+					<div class="program">
+						<h3>实付金额满足以下条件，即可享受!<a href="#">马上凑单！!</a></h3>
+						<img src="../img/buycar/20161001_588.jpg">
+					</div>
+					
+					<div class="test-product">
+						<ul class="rule">
+							<li class="first"><b>DHC试用装赠送规则</b></li>
+							<li>根据您的化妆品订购金额，您可选择1个试用装。</li>
+							<li>1.试用装可重复选择，每种最多可选5个。</li>
+							<li>2.试用装赠送上限为25个。</li>
+							<li>3.试用装包装可能有所不同，请以收到的实物为准。</li>
+							<li>4、如遇试用装缺货等特殊情况，系统将随机配送试用装，请以收到的实物为准。</li>
+						</ul>
+						<ul class="select-test">
+							<li>
+								<div class="test-p"><a href="#"><img src="../img/buycar/1022.gif"/></a></div>
+								<div>
+									<p>DHC橄榄卸妆油3mL 1次用量</p>
+									<select><option>0</option><option>1</option><option>2</option></select>
+								</div>
+							</li>
+							<li>
+								<div class="test-p"><a href="#"><img src="../img/buycar/1022.gif"/></a></div>
+								<div>
+									<p>DHC橄榄卸妆油3mL 1次用量</p>
+									<select><option>0</option><option>1</option><option>2</option></select>
+								</div>
+							</li>
+							<li>
+								<div class="test-p"><a href="#"><img src="../img/buycar/1022.gif"/></a></div>
+								<div>
+									<p>DHC橄榄卸妆油3mL 1次用量</p>
+									<select><option>0</option><option>1</option><option>2</option></select>
+								</div>
+							</li>
+							<li>
+								<div class="test-p"><a href="#"><img src="../img/buycar/1022.gif"/></a></div>
+								<div>
+									<p>DHC橄榄卸妆油3mL 1次用量</p>
+									<select><option>0</option><option>1</option><option>2</option></select>
+								</div>
+							</li>
+							<li>
+								<div class="test-p"><a href="javascript:void(0)"><img src="../img/buycar/1022.gif"/></a></div>
+								<div>
+									<p>DHC橄榄卸妆油3mL 1次用量</p>
+									<select><option>0</option><option>1</option><option>2</option></select>
+								</div>
+							</li>
+							<li>
+								<div class="test-p"><a href="javascript:void(0)"><img src="../img/buycar/1022.gif"/></a></div>
+								<div>
+									<p>DHC橄榄卸妆油3mL 1次用量</p>
+									<select><option>0</option><option>1</option><option>2</option></select>
+								</div>
+							</li>
+							<li>
+								<div class="test-p"><a href="javascript:void(0)"><img src="../img/buycar/1022.gif"/></a></div>
+								<div>
+									<p>DHC橄榄卸妆油3mL 1次用量</p>
+									<select><option>0</option><option>1</option><option>2</option></select>
+								</div>
+							</li>
+							<li>
+								<div class="test-p"><a href="javascript:void(0)"><img src="../img/buycar/1022.gif"/></a></div>
+								<div>
+									<p>DHC橄榄卸妆油3mL 1次用量</p>
+									<select><option>0</option><option>1</option><option>2</option></select>
+								</div>
+							</li>
+							<li>
+								<div class="test-p"><a href="javascript:void(0)"><img src="../img/buycar/1022.gif"/></a></div>
+								<div>
+									<p>DHC橄榄卸妆油3mL 1次用量</p>
+									<select><option>0</option><option>1</option><option>2</option></select>
+								</div>
+							</li>
+							<li>
+								<div class="test-p"><a href="javascript:void(0)"><img src="../img/buycar/1022.gif"/></a></div>
+								<div>
+									<p>DHC橄榄卸妆油3mL 1次用量</p>
+									<select><option>0</option><option>1</option><option>2</option></select>
+								</div>
+							</li>
+						</ul>
+					</div>
+					
+					<div class="test-pay">
+						<span>您可以挑选1个试用装，然后</span>
+						<button><img src="../img/buycar/cart_b1.gif" /></button>
+					</div>
+					
+					<div class="maybe">
+						<h5><b>根据您的选择，DHC知道您同样会喜欢</b></h5>
+						<ul>
+							<li>
+								<div class="maype-p"><a href="javascript:void(0)"><img src="../img/buycar/1022.gif"/></a></div>
+								<div>
+									<p>DHC橄榄蜂蜜滋养皂</p>
+									<p>￥128</p>
+									<select><option>0</option><option>1</option><option>2</option></select>
+									<a><img src="../img/buycar/go.gif"></a>
+								</div>
+							</li>
+							<li>
+								<div class="maype-p"><a href="javascript:void(0)"><img src="../img/buycar/1022.gif"/></a></div>
+								<div>
+									<p>DHC橄榄蜂蜜滋养皂</p>
+									<p>￥128</p>
+									<select><option>0</option><option>1</option><option>2</option></select>
+									<a><img src="../img/buycar/go.gif"></a>
+								</div>
+							</li>
+							<li>
+								<div class="maype-p"><a href="javascript:void(0)"><img src="../img/buycar/1022.gif"/></a></div>
+								<div>
+									<p>DHC橄榄蜂蜜滋养皂</p>
+									<p>￥128</p>
+									<select><option>0</option><option>1</option><option>2</option></select>
+									<a><img src="../img/buycar/go.gif"></a>
+								</div>
+							</li>
+							<li>
+								<div class="maype-p"><a href="javascript:void(0)"><img src="../img/buycar/1022.gif"/></a></div>
+								<div>
+									<p>DHC橄榄蜂蜜滋养皂</p>
+									<p>￥128</p>
+									<select><option>0</option><option>1</option><option>2</option></select>
+									<a><img src="../img/buycar/go.gif"></a>
+								</div>
+							</li>
+							<li>
+								<div class="maype-p"><a href="javascript:void(0)"><img src="../img/buycar/1022.gif"/></a></div>
+								<div>
+									<p>DHC橄榄蜂蜜滋养皂</p>
+									<p>￥128</p>
+									<select><option>0</option><option>1</option><option>2</option></select>
+									<a><img src="../img/buycar/go.gif"></a>
+								</div>
+							</li>
+							<li>
+								<div class="maype-p"><a href="javascript:void(0)"><img src="../img/buycar/1022.gif"/></a></div>
+								<div>
+									<p>DHC橄榄蜂蜜滋养皂</p>
+									<p>￥128</p>
+									<select><option>0</option><option>1</option><option>2</option></select>
+									<a><img src="../img/buycar/go.gif"></a>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>	
+				
+				<div class="empty">
+					<ul class="tellempty">
+						<li><img src="../img/buycar/go_car.jpg"></li>
+						<li>
+							<h3 class="empty-header">您的购物车还是空的，赶紧行动吧！<span>现在您可以：</span></h3>
+							<div class="link">
+								<div>
+									<h3>快速进入</h3>
+									<a href="main.html">DHC首页</a>
+									<a href="javascript:void(0)">本月优惠</a>
+									<a href="javascript:void(0)">本月优惠</a>
+									<a href="javascript:void(0)">本月优惠</a>
+									<a href="javascript:void(0)">本月优惠</a>
+									<a href="javascript:void(0)">本月优惠</a>
+									<a href="javascript:void(0)">本月优惠</a>
+								</div>
+								<div>
+									<h3>新会员专区</h3>
+									<a href="javascript:void(0)">免费获取试用装</a>
+									<a href="javascript:void(0)">免费获取试用装</a>
+									<a href="javascript:void(0)">免费获取试用装</a>
+								</div>
+								<div>
+									<h3>快速进入</h3>
+									<a href="javascript:void(0)">DHC首页</a>
+									<a href="javascript:void(0)">TOP10</a>
+									<a href="javascript:void(0)">TOP10</a>
+									<a href="javascript:void(0)">TOP10</a>
+									<a href="javascript:void(0)">TOP10</a>
+									<a href="javascript:void(0)">TOP10</a>
+								</div>
+							</div>
+							
+						</li>
+					</ul>
+					
+					<div class="recommend">
+						<ul>
+							<li><a><img src="../img/buycar/66_R.jpg"></a></li>
+							<li><a><b>橄榄滋养套装</b></a></li>
+							<li><a>充分清除毛孔内污垢，并为肌肤提供充盈滋润。</a></li>
+							<li>￥924 ↓</li>
+							<li class="lowmeny"><b>￥638</b><span>30%OFF</span></li>
+							<li><a class="tobuy"><img src="../img/buycar/cart_b0.gif"/></a></li>
+						</ul>
+						<ul>
+							<li><a><img src="../img/buycar/66_R.jpg"></a></li>
+							<li><a><b>橄榄滋养套装</b></a></li>
+							<li><a>充分清除毛孔内污垢，并为肌肤提供充盈滋润。</a></li>
+							<li>￥924 ↓</li>
+							<li class="lowmeny"><b>￥638</b><span>30%OFF</span></li>
+							<li><a class="tobuy"><img src="../img/buycar/cart_b0.gif"/></a></li>
+						</ul>
+						<ul>
+							<li><a><img src="../img/buycar/66_R.jpg"></a></li>
+							<li><a><b>橄榄滋养套装</b></a></li>
+							<li><a>充分清除毛孔内污垢，并为肌肤提供充盈滋润。</a></li>
+							<li>￥924 ↓</li>
+							<li class="lowmeny"><b>￥638</b><span>30%OFF</span></li>
+							<li><a class="tobuy"><img src="../img/buycar/cart_b0.gif"/></a></li>
+						</ul>
+						<ul>
+							<li><a><img src="../img/buycar/66_R.jpg"></a></li>
+							<li><a><b>橄榄滋养套装</b></a></li>
+							<li><a>充分清除毛孔内污垢，并为肌肤提供充盈滋润。</a></li>
+							<li>￥924 ↓</li>
+							<li class="lowmeny"><b>￥638</b><span>30%OFF</span></li>
+							<li><a class="tobuy"><img src="../img/buycar/cart_b0.gif"/></a></li>
+						</ul>
+						<ul>
+							<li><a><img src="../img/buycar/66_R.jpg"></a></li>
+							<li><a><b>橄榄滋养套装</b></a></li>
+							<li><a>充分清除毛孔内污垢，并为肌肤提供充盈滋润。</a></li>
+							<li>￥924 ↓</li>
+							<li class="lowmeny"><b>￥638</b><span>30%OFF</span></li>
+							<li><a class="tobuy"><img src="../img/buycar/cart_b0.gif"/></a></li>
+						</ul>
+					</div>
+				</div>
+
+			</div>
+		</div>
+		
+		<div id="main-footer"></div>
+		
+		<div id="totop"></div>
+	</body>
+</html>

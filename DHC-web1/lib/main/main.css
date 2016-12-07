@@ -1,0 +1,110 @@
+#nav ul li.first{border-left: 1px solid #ccc;width: 78px;border-top: 2px solid black;border-bottom: 2px solid #ccc;}
+#wrap-picture{width: 100%;}
+#wrap-picture #picture{margin: 0 auto;width: 950px;height: 356px;position: relative;overflow: hidden;}
+#picture ul{width: 5700px; position: absolute;top: 0;left: 0;}
+#picture li{float: left;}
+
+#picture form{position:  absolute; bottom: 0; left: 50%; margin-left: -50px;}
+#picture form input {width: 15px;height: 15px;background: #ccc;}
+#picture form input.select{background: black;}
+#picture span {position: absolute;font-weight: 900;font-size: 60px;color: #ccc;}
+#picture span.pi-left{left: 0px;top: 50%;margin-top: -30px;}
+#picture span.pi-right{right: 0px;top: 50%;margin-top: -30px;}
+
+#wrap-contant{width: 100%;}
+#wrap-contant #contant{margin: 0 auto;width: 953px;overflow: hidden;}
+li a:hover{color: blue;text-decoration: none;}
+
+
+/*#contant div.contant-left{float: left;}
+#contant div.contant-left li {overflow: hidden;margin-top: 14px;border: solid 1px #ccc;width: 200px;}
+.contant-left li.five{padding-bottom: 5px;}
+.contant-left li.five a{margin: 0 12px;font-size: 12px;}
+.contant-left li.five a.last{padding-left: 100px;}
+.contant-left li.five a.last img{float: left;margin-left: 15px;}
+.contant-left li a{margin-left: 12px;display:inline-block;line-height: 30px;overflow: hidden;}
+.contant-left li.six a{ margin-right: 140px;}
+.contant-left li.seven a{ margin-right: 100px;}
+.contant-left li.eight a{ margin-right: 100px;}
+.contant-left li.nine a{ margin-right: 100px;height: 30px;}
+.contant-left li.ten a{ margin-right: 100px;}
+.contant-left li.eleven a{ margin-left:0 ;border-bottom: 1px dashed #ccc;}
+.contant-left li.eleven a.er{ margin-left:24px ;height: 0;border-bottom:none;}
+.contant-left li.fourth div {margin:12px ;border-bottom: 1px solid #ccc;overflow: hidden;padding-bottom: 12px;}
+.contant-left li.fourth div.second{border-bottom:none;}
+.contant-left li.fourth { float: left;}
+.contant-left li.fourth a.last{width:82px;margin-right: 20px;line-height: 16px;}*/
+
+div.contant-right{float: left;}
+div.contant-right{width: 720px;overflow: hidden;margin: 16px 0 0 30px;}
+.contant-right div{border-bottom: solid 1px black;overflow: hidden;}
+.contant-right div h3{height: 20px;line-height: 20px;}
+.contant-right div h3 div{border-bottom:none;float: left;width: 5px;height:20px;background: #ccc;}
+.contant-right div h3 p{float: left;margin-left: 12px;}
+
+.contant-right div.one {padding-bottom: 16px;}
+.contant-right div.one a{float: left ;margin-right: 20px;}
+.contant-right div.one a.last{margin-right: 0px;}
+
+.contant-right div.two{margin-top: 20px;padding-bottom: 12px;}
+.contant-right div.two ul{margin-top: 12px;}
+.contant-right div.two ul li {line-height: 26px;border: 1px solid black;float: left;}
+.contant-right div.two ul li a {padding:0 16px}
+
+.contant-right div.three{margin-top: 20px;padding-bottom: 30px;}
+.contant-right div.three div.hotgoods{border: none;margin-bottom: 12px;}
+.contant-right div.three div.hotgoods dl{width: 230px;float: left;margin:10px 10px 0 0;}
+.contant-right div.three div.hotgoods dd{background-color:#ffc6cc;padding-left: 12px;}
+.contant-right div.three div.newgoods{border: 10px solid #ffc6cc;border-top: none;background: url(../../img/main/sright_r1_c1.jpg) no-repeat top left;padding-top: 47px;}
+.contant-right div.three div.newgoods p {overflow: hidden;}
+.contant-right div.three div.newgoods ul {margin-left: 15px;float: left;}
+.contant-right div.three div.newgoods li{text-align: center;width: 120px;margin-top: 5px;}
+.contant-right div.three div.newgoods li.second img {margin-left: 5px;display: inline-block;}
+.contant-right div.three div.newgoods li.last img{margin-left: 16px;}
+.contant-right div.three div.newgoods li.fiveth{color: #ffc6cc;font-size: 20px;}
+.contant-right div.three div.newgoods li.sixth span{background: #EC4758;color: white;padding: 0 12px;}
+.contant-right div.three div.newgoods .serrch-all{}
+.contant-right div.three div.newgoods .serrch-all img{margin: 0 0 20px 200px;}
+
+.contant-right div.four h3 div{background-color: skyblueblue;}
+.contant-right div.four .left{width: 230px;float: left;}
+.contant-right div.four .center{width: 230px;float: left;margin-left: 10px;}
+.contant-right div.four .right{width: 230px;float: left;margin-left: 10px;}
+.contant-right div.four div{border: none;}
+.contant-right div.four dl{width: 230px;}
+.contant-right div.four .little-p{margin-top: 20px;}
+.contant-right div.four .little-p img {float: left;}
+.contant-right div.four .little-p p{width: 160px;float: left;}
+.contant-right div.four h3{margin: 12px 0;}
+
+.contant-right div.five h3 div{background-color: darkred;}
+.contant-right div.five .left{width: 230px;float: left;}
+.contant-right div.five .center{width: 230px;float: left;margin-left: 10px;}
+.contant-right div.five .right{width: 230px;float: left;margin-left: 10px;}
+.contant-right div.five div{border: none;}
+.contant-right div.five dl{width: 230px;}
+.contant-right div.five .little-p{margin-top: 20px;}
+.contant-right div.five .little-p img {float: left;}
+.contant-right div.five .little-p p{width: 160px;float: left;}
+.contant-right div.five h3{margin: 12px 0;}
+
+
+.contant-right div.six .six1{float: left;}
+.contant-right div.six1 h3 div{background-color: darkblue;}
+.contant-right div.six .six2{float: left;margin-left: 12px;}
+.contant-right div.six2 h3 div{background-color: greenyellow;}
+.contant-right div.six .left{width: 230px;float: left;}
+.contant-right div.six .right{width: 110px;float: left;margin-left: 10px;}
+.contant-right div.six div{border: none;}
+.contant-right div.six dl{width: 230px;}
+.contant-right div.six .little-p{margin-top: 20px;}
+.contant-right div.six .little-p img {float: left;}
+.contant-right div.six .little-p p{width: 160px;float: left;}
+.contant-right div.six h3{margin: 12px 0;}
+
+.contant-right div.seven a{display: inline-block;margin:10px 5px 10px 0}
+.contant-right div.seven h3{margin:20px 0;}
+
+.contant-right div.eight{border-bottom: none;}
+.contant-right div.eight a{display: inline-block;margin:10px 5px 10px 0}
+.contant-right div.eight h3{margin:20px 0;}

@@ -1,0 +1,38 @@
+#wrap-login {width: 100%;}
+#login1,#login2,#login3{margin: 0 auto;width: 950px;overflow: hidden;}
+
+#login1 h3.login-header{background-color: #46c3b3;font-size: 20px;padding: 2px 10px;color: white;}
+color="#46c3b3"
+
+#login1 form {}
+#login1 .enter{letter-spacing:3px;font-size: 14px;border-radius: 10px;border: 1px solid black;width: 440px;float: left;padding: 10px 10px 20px 10px;margin: 12px;}
+.enter p.enter-header{border-bottom: 3px solid #006621;font-size: 30px;}
+.enter form {margin-top: 10px;overflow: hidden;}
+.enter form  div{margin: 0 13px;overflow: hidden;border: 1px solid #CCCC99;}
+.enter form  div div{margin: 0;background-color:#ccc;float: left;width: 100px;text-align: center ;line-height: 60px;}
+.enter form  div input{margin:19px;float: left;height: 20px;line-height: 30px;width: 250px;}
+.enter form p{border-radius: 10px;margin: 10px;background: #46c3c9;line-height: 50px;}
+.enter form p input{margin-left: 100px;}
+.enter form p a{float: right;margin-right: 100px;}
+.enter form p.sub{background:none;}
+.enter form p.sub input{letter-spacing:3px;font-size: 18px;color: white;font-weight: bold;width: 300px;height: 50px;margin: 7px 0 7px 80px;border-radius: 10px;background-color: #46c3b3;}
+.enter div.pay{margin-bottom: 10px;overflow: hidden;margin-left: 130px;}
+.enter div.pay a {line-height: 16px;float:left;font-size: 16px;margin-right: 50px;color: black;text-decoration: none;}
+
+#login1 .resign{letter-spacing:3px;font-size: 14px;border-radius: 10px;border: 1px solid black;width: 440px;float: left;padding: 10px 10px 25px 10px;margin-top: 12px;}
+.resign p.enter-header{border-bottom: 3px solid #006621;font-size: 30px;}
+.resign form {margin-top: 10px;overflow: hidden;}
+.resign form  div{margin: 0 13px;overflow: hidden;border: 1px solid #CCCC99;}
+.resign form  div div{margin: 0;background-color:#ccc;float: left;width: 100px;text-align: center ;line-height: 60px;}
+.resign form  div input{margin:19px;float: left;height: 20px;line-height: 30px;width: 250px;}
+.resign form p{border-radius: 10px;margin: 10px;background: #46c3c9;line-height: 50px;}
+.resign form p input{margin-left: 100px;}
+.resign form p a{float: right;margin-right: 100px;}
+.resign form p.sub{background:none;}
+.resign form p.sub input{letter-spacing:3px;font-size: 18px;color: white;font-weight: bold;width: 300px;height: 50px;margin-left: 80px;border-radius: 10px;background-color: #46c3b3;}
+.resign .become-hight{margin-left: 20px;}
+.resign form  div.num1 input{width: 150px;}
+.resign form  div.num2 input{width: 150px;}
+.resign form  div.num1 b {line-height: 60px;margin-left: 10px;}
+.resign form  div.num2 b {line-height: 60px;margin-left: 10px;}
+.resign a.become-hight{color: black;font-size: 16px;font-weight: bold;margin-top: 30px;text-decoration: none;}
